@@ -1,0 +1,8 @@
+body {
+    font-family: 'Lucida Sans';
+    background-color: #f8f8f8;
+}
+
+.active {
+    background: linear-gradient(90deg, #e33b3b, #f8f8f8)
+}
