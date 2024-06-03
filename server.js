@@ -11,7 +11,6 @@ app.use(express.static(__dirname + '/node_modules/bootstrap-icons/font'));
 
 app.use('/', require('./routes'));
 
-
-app.listen(process.env.PORT, function () {
-    console.log('Server is running on port' + process.env.PORT)
-})
+app.listen(process.env.PORT, () => {
+    console.log('server started '+ process.env.PORT);
+});
